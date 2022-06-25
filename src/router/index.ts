@@ -16,11 +16,6 @@ const routes: Array<RouteRecordRaw> = [
         name: "Reactive",
         component: ()=> import("../views/Reactive/index.vue")
     },
-    {
-        path: '/checkbox',
-        name: "Checkbox",
-        component: ()=> import("../views/CheckBox/index.vue")
-    }
 ];
 
 const router = createRouter({
