@@ -21,6 +21,16 @@ const routes: Array<RouteRecordRaw> = [
         name: "Toref",
         component: ()=> import("../views/ToRef/index.vue")
     },
+    {
+        path: '/computed',
+        name: "Computed",
+        component: ()=> import("../views/Computed/index.vue")
+    },
+    {
+        path: '/watch',
+        name: "Watch",
+        component: ()=> import("../views/Watch/index.vue")
+    },
 ];
 
 const router = createRouter({
